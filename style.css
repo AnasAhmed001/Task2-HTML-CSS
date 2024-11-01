@@ -26,32 +26,18 @@ body{
     top: 12px;
     letter-spacing: -2.1px;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    top: 36.5px;
-    left: 240px;
-    font-size: 43px;
+ul {
+    list-style-type: none; 
+    display: flex;  
+    margin-left: 280px;  
+    margin-top: 30px;   
 }
 
-.ul1{
-    font-size: 43px;
-    width: 45px;
-}
-li{
-    float: left;
-    position: relative;
-    right: 22px;
-}
-li a{
-    padding: 8px;
-    color: black;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: 650;
+ul li{
+    margin-right: 15px;
+    font-size: 25px;
     cursor: pointer;
+    font: bold;
 }
 .footer, img, p, form{
     margin: 0px 55px 0px 55px;
@@ -61,4 +47,22 @@ li a{
     background-color: rgb(0, 225, 225);
     text-align: center;
     border-radius: 8px;
+}
+.about{
+    background-color: white;
+    margin-top: 10px;
+}
+img{
+    border-radius: 23px;
+}
+
+.p{
+    margin-top: 12px;
+}
+.about{
+    display: flex;
+}
+.block{
+    display: grid;
+    margin: 0px 88px 0px 85px;
 }
